@@ -1,0 +1,1133 @@
+1 _  hotel
+Variable cualitativa
+count          61913
+unique             2
+top       City Hotel
+freq           42129
+Name: hotel, dtype: object
+La variable hotel toma estos valores:
+	 City Hotel  con un porcentaje de  68.0455 %
+	 Resort Hotel  con un porcentaje de  31.9545 %
+2 _  lead_time
+Variable cuantitativa discreta
+Resultado mas comun o moda:  0
+count    61913.000000
+mean       112.248187
+std        110.717953
+min          0.000000
+25%         23.000000
+50%         78.000000
+75%        172.000000
+max        629.000000
+Name: lead_time, dtype: float64
+3 _  arrival_date_year
+Variable cuantitativa discreta
+Resultado mas comun o moda:  2016
+count    61913.000000
+mean      2016.154749
+std          0.708389
+min       2015.000000
+25%       2016.000000
+50%       2016.000000
+75%       2017.000000
+max       2017.000000
+Name: arrival_date_year, dtype: float64
+4 _  arrival_date_month
+Variable cualitativa
+count      61913
+unique        12
+top       August
+freq        7176
+Name: arrival_date_month, dtype: object
+La variable arrival_date_month toma estos valores:
+	 September  con un porcentaje de  9.0756 %
+	 October  con un porcentaje de  9.4697 %
+	 December  con un porcentaje de  5.6418 %
+	 March  con un porcentaje de  7.9127 %
+	 November  con un porcentaje de  5.498 %
+	 July  con un porcentaje de  10.5374 %
+	 June  con un porcentaje de  9.3228 %
+	 April  con un porcentaje de  9.494 %
+	 August  con un porcentaje de  11.5905 %
+	 February  con un porcentaje de  6.6626 %
+	 January  con un porcentaje de  4.8471 %
+	 May  con un porcentaje de  9.9478 %
+5 _  arrival_date_week_number
+Variable cuantitativa discreta
+Resultado mas comun o moda:  33
+count    61913.00000
+mean        27.21808
+std         13.52601
+min          1.00000
+25%         16.00000
+50%         28.00000
+75%         38.00000
+max         53.00000
+Name: arrival_date_week_number, dtype: float64
+6 _  arrival_date_day_of_month
+Variable cuantitativa discreta
+Resultado mas comun o moda:  17
+count    61913.000000
+mean        15.785812
+std          8.795489
+min          1.000000
+25%          8.000000
+50%         16.000000
+75%         23.000000
+max         31.000000
+Name: arrival_date_day_of_month, dtype: float64
+7 _  stays_in_weekend_nights
+Variable cuantitativa discreta
+Resultado mas comun o moda:  0
+count    61913.000000
+mean         0.924135
+std          0.993101
+min          0.000000
+25%          0.000000
+50%          1.000000
+75%          2.000000
+max         16.000000
+Name: stays_in_weekend_nights, dtype: float64
+8 _  stays_in_week_nights
+Variable cuantitativa discreta
+Resultado mas comun o moda:  2
+count    61913.000000
+mean         2.510054
+std          1.884926
+min          0.000000
+25%          1.000000
+50%          2.000000
+75%          3.000000
+max         40.000000
+Name: stays_in_week_nights, dtype: float64
+9 _  adults
+Variable cuantitativa discreta
+Resultado mas comun o moda:  2
+count    61913.000000
+mean         1.862791
+std          0.589066
+min          0.000000
+25%          2.000000
+50%          2.000000
+75%          2.000000
+max         55.000000
+Name: adults, dtype: float64
+10 _  children
+Variable cuantitativa continua
+Resultado mas comun o moda:  0.0
+count    61909.000000
+mean         0.104896
+std          0.402847
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max         10.000000
+Name: children, dtype: float64
+la cantidad de clientes sin  children  es: 0.0065 %
+11 _  babies
+Variable cuantitativa discreta
+Resultado mas comun o moda:  0
+count    61913.000000
+mean         0.007155
+std          0.092158
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          9.000000
+Name: babies, dtype: float64
+12 _  meal
+Variable cualitativa
+count     61913
+unique        5
+top          BB
+freq      47837
+Name: meal, dtype: object
+La variable meal toma estos valores:
+	 BB  con un porcentaje de  77.2649 %
+	 HB  con un porcentaje de  12.0362 %
+	 SC  con un porcentaje de  8.9739 %
+	 Undefined  con un porcentaje de  0.9546 %
+	 FB  con un porcentaje de  0.7704 %
+13 _  country
+Variable cualitativa
+count     61692
+unique      149
+top         PRT
+freq      27950
+Name: country, dtype: object
+La variable country toma estos valores:
+	 USA  con un porcentaje de  1.6491 %
+	 PRT  con un porcentaje de  45.144 %
+	 CHE  con un porcentaje de  1.368 %
+	 FRA  con un porcentaje de  7.7674 %
+	 AGO  con un porcentaje de  0.323 %
+	 GBR  con un porcentaje de  9.2598 %
+	 DEU  con un porcentaje de  5.3494 %
+	 ESP  con un porcentaje de  6.7999 %
+	 ROU  con un porcentaje de  0.3973 %
+	 SWE  con un porcentaje de  0.7769 %
+	 IRL  con un porcentaje de  2.6117 %
+	 CN  con un porcentaje de  0.9643 %
+	 ITA  con un porcentaje de  3.0866 %
+	 NLD  con un porcentaje de  1.5861 %
+	 NOR  con un porcentaje de  0.4878 %
+	 MAR  con un porcentaje de  0.218 %
+	 IND  con un porcentaje de  0.1147 %
+	 BEL  con un porcentaje de  1.8155 %
+	 ISR  con un porcentaje de  0.5201 %
+	 KOR  con un porcentaje de  0.1292 %
+	 TUN  con un porcentaje de  0.0307 %
+	 JPN  con un porcentaje de  0.1341 %
+	 FIN  con un porcentaje de  0.3085 %
+	 TUR  con un porcentaje de  0.2164 %
+	 CHN  con un porcentaje de  0.8803 %
+	 AUT  con un porcentaje de  0.9384 %
+	 ZAF  con un porcentaje de  0.0921 %
+	 LUX  con un porcentaje de  0.2423 %
+	 BRA  con un porcentaje de  1.8607 %
+	 POL  con un porcentaje de  0.6945 %
+	 DNK  con un porcentaje de  0.3182 %
+	 IRN  con un porcentaje de  0.063 %
+	 RUS  con un porcentaje de  0.5443 %
+	 VEN  con un porcentaje de  0.0194 %
+	 SEN  con un porcentaje de  0.0113 %
+	 AUS  con un porcentaje de  0.3505 %
+	 MLT  con un porcentaje de  0.0113 %
+	 BGR  con un porcentaje de  0.0581 %
+	 THA  con un porcentaje de  0.0517 %
+	 GEO  con un porcentaje de  0.0242 %
+	 SRB  con un porcentaje de  0.0533 %
+	 PHL  con un porcentaje de  0.0404 %
+	 ARG  con un porcentaje de  0.1712 %
+	 LVA  con un porcentaje de  0.042 %
+	 LTU  con un porcentaje de  0.0598 %
+	 ARE  con un porcentaje de  0.0533 %
+	 nan  con un porcentaje de  0.0 %
+	 VNM  con un porcentaje de  0.0032 %
+	 MOZ  con un porcentaje de  0.0452 %
+	 MEX  con un porcentaje de  0.0727 %
+	 HUN  con un porcentaje de  0.1971 %
+	 DZA  con un porcentaje de  0.0678 %
+	 GAB  con un porcentaje de  0.0048 %
+	 UKR  con un porcentaje de  0.0549 %
+	 SVN  con un porcentaje de  0.0452 %
+	 HRV  con un porcentaje de  0.0808 %
+	 SVK  con un porcentaje de  0.0533 %
+	 CHL  con un porcentaje de  0.0581 %
+	 BLR  con un porcentaje de  0.021 %
+	 CPV  con un porcentaje de  0.021 %
+	 CRI  con un porcentaje de  0.0129 %
+	 EST  con un porcentaje de  0.0581 %
+	 TWN  con un porcentaje de  0.0371 %
+	 ALB  con un porcentaje de  0.0113 %
+	 SGP  con un porcentaje de  0.0355 %
+	 PRI  con un porcentaje de  0.0129 %
+	 IDN  con un porcentaje de  0.0388 %
+	 DOM  con un porcentaje de  0.0145 %
+	 MUS  con un porcentaje de  0.0065 %
+	 OMN  con un porcentaje de  0.0065 %
+	 EGY  con un porcentaje de  0.0323 %
+	 SAU  con un porcentaje de  0.0517 %
+	 NZL  con un porcentaje de  0.0533 %
+	 FRO  con un porcentaje de  0.0081 %
+	 CYP  con un porcentaje de  0.0436 %
+	 PER  con un porcentaje de  0.0162 %
+	 CZE  con un porcentaje de  0.1244 %
+	 GRC  con un porcentaje de  0.0969 %
+	 ARM  con un porcentaje de  0.0081 %
+	 COL  con un porcentaje de  0.0711 %
+	 PAK  con un porcentaje de  0.0178 %
+	 MDG  con un porcentaje de  0.0016 %
+	 HKG  con un porcentaje de  0.0355 %
+	 MYS  con un porcentaje de  0.0226 %
+	 MKD  con un porcentaje de  0.0097 %
+	 ISL  con un porcentaje de  0.0388 %
+	 BIH  con un porcentaje de  0.0081 %
+	 NGA  con un porcentaje de  0.0307 %
+	 AZE  con un porcentaje de  0.021 %
+	 MAC  con un porcentaje de  0.0194 %
+	 JEY  con un porcentaje de  0.0081 %
+	 SUR  con un porcentaje de  0.0032 %
+	 KWT  con un porcentaje de  0.0194 %
+	 BGD  con un porcentaje de  0.0048 %
+	 IRQ  con un porcentaje de  0.0097 %
+	 MDV  con un porcentaje de  0.0113 %
+	 GGY  con un porcentaje de  0.0032 %
+	 VGB  con un porcentaje de  0.0016 %
+	 ECU  con un porcentaje de  0.0162 %
+	 URY  con un porcentaje de  0.0258 %
+	 ETH  con un porcentaje de  0.0048 %
+	 LBN  con un porcentaje de  0.0226 %
+	 BOL  con un porcentaje de  0.0081 %
+	 QAT  con un porcentaje de  0.0145 %
+	 JOR  con un porcentaje de  0.0178 %
+	 COM  con un porcentaje de  0.0032 %
+	 GNB  con un porcentaje de  0.0065 %
+	 MYT  con un porcentaje de  0.0032 %
+	 UGA  con un porcentaje de  0.0016 %
+	 BEN  con un porcentaje de  0.0048 %
+	 GIB  con un porcentaje de  0.0145 %
+	 KAZ  con un porcentaje de  0.0145 %
+	 TZA  con un porcentaje de  0.0065 %
+	 LBY  con un porcentaje de  0.0032 %
+	 SYC  con un porcentaje de  0.0032 %
+	 PRY  con un porcentaje de  0.0032 %
+	 MNE  con un porcentaje de  0.0048 %
+	 ZWE  con un porcentaje de  0.0032 %
+	 CAF  con un porcentaje de  0.0032 %
+	 ATA  con un porcentaje de  0.0016 %
+	 MWI  con un porcentaje de  0.0016 %
+	 JAM  con un porcentaje de  0.0016 %
+	 AND  con un porcentaje de  0.0081 %
+	 LIE  con un porcentaje de  0.0016 %
+	 FJI  con un porcentaje de  0.0016 %
+	 TJK  con un porcentaje de  0.0048 %
+	 LKA  con un porcentaje de  0.0032 %
+	 HND  con un porcentaje de  0.0016 %
+	 PAN  con un porcentaje de  0.0016 %
+	 CMR  con un porcentaje de  0.0048 %
+	 KNA  con un porcentaje de  0.0032 %
+	 KEN  con un porcentaje de  0.0048 %
+	 UMI  con un porcentaje de  0.0016 %
+	 PYF  con un porcentaje de  0.0016 %
+	 GLP  con un porcentaje de  0.0016 %
+	 BRB  con un porcentaje de  0.0016 %
+	 CIV  con un porcentaje de  0.0048 %
+	 ZMB  con un porcentaje de  0.0032 %
+	 CUB  con un porcentaje de  0.0065 %
+	 TGO  con un porcentaje de  0.0032 %
+	 SYR  con un porcentaje de  0.0032 %
+	 SDN  con un porcentaje de  0.0016 %
+	 NAM  con un porcentaje de  0.0016 %
+	 GHA  con un porcentaje de  0.0016 %
+	 GTM  con un porcentaje de  0.0032 %
+	 BHR  con un porcentaje de  0.0048 %
+	 STP  con un porcentaje de  0.0016 %
+	 MCO  con un porcentaje de  0.0016 %
+	 IMN  con un porcentaje de  0.0016 %
+	 RWA  con un porcentaje de  0.0016 %
+la cantidad de clientes sin  country  es: 0.357 %
+14 _  market_segment
+Variable cualitativa
+count         61913
+unique            8
+top       Online TA
+freq          29269
+Name: market_segment, dtype: object
+La variable market_segment toma estos valores:
+	 Online TA  con un porcentaje de  47.2744 %
+	 Groups  con un porcentaje de  18.6471 %
+	 Offline TA/TO  con un porcentaje de  20.0023 %
+	 Direct  con un porcentaje de  9.2985 %
+	 Complementary  con un porcentaje de  0.5798 %
+	 Corporate  con un porcentaje de  4.0121 %
+	 Aviation  con un porcentaje de  0.1825 %
+	 Undefined  con un porcentaje de  0.0032 %
+15 _  distribution_channel
+Variable cualitativa
+count     61913
+unique        5
+top       TA/TO
+freq      51849
+Name: distribution_channel, dtype: object
+La variable distribution_channel toma estos valores:
+	 TA/TO  con un porcentaje de  83.7449 %
+	 Direct  con un porcentaje de  10.9815 %
+	 Corporate  con un porcentaje de  5.1233 %
+	 GDS  con un porcentaje de  0.1438 %
+	 Undefined  con un porcentaje de  0.0065 %
+16 _  is_repeated_guest
+Variable cuantitativa discreta
+Resultado mas comun o moda:  0
+count    61913.000000
+mean         0.027991
+std          0.164948
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: is_repeated_guest, dtype: float64
+	 0  con un porcentaje de  97.2009 %
+	 1  con un porcentaje de  2.7991 %
+17 _  previous_cancellations
+Variable cuantitativa discreta
+Resultado mas comun o moda:  0
+count    61913.000000
+mean         0.114790
+std          0.993723
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max         26.000000
+Name: previous_cancellations, dtype: float64
+18 _  previous_bookings_not_canceled
+Variable cuantitativa discreta
+Resultado mas comun o moda:  0
+count    61913.000000
+mean         0.115420
+std          1.396359
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max         70.000000
+Name: previous_bookings_not_canceled, dtype: float64
+19 _  reserved_room_type
+Variable cualitativa
+count     61913
+unique       10
+top           A
+freq      45134
+Name: reserved_room_type, dtype: object
+La variable reserved_room_type toma estos valores:
+	 D  con un porcentaje de  15.4814 %
+	 A  con un porcentaje de  72.8991 %
+	 F  con un porcentaje de  2.3436 %
+	 E  con un porcentaje de  5.2477 %
+	 G  con un porcentaje de  1.7605 %
+	 B  con un porcentaje de  0.9368 %
+	 C  con un porcentaje de  0.7785 %
+	 H  con un porcentaje de  0.5395 %
+	 P  con un porcentaje de  0.0113 %
+	 L  con un porcentaje de  0.0016 %
+20 _  assigned_room_type
+Variable cualitativa
+count     61913
+unique       12
+top           A
+freq      40007
+Name: assigned_room_type, dtype: object
+La variable assigned_room_type toma estos valores:
+	 D  con un porcentaje de  19.6889 %
+	 A  con un porcentaje de  64.6181 %
+	 F  con un porcentaje de  2.9412 %
+	 E  con un porcentaje de  6.1037 %
+	 H  con un porcentaje de  0.6202 %
+	 C  con un porcentaje de  1.8203 %
+	 G  con un porcentaje de  2.0626 %
+	 B  con un porcentaje de  1.7056 %
+	 I  con un porcentaje de  0.2342 %
+	 K  con un porcentaje de  0.1922 %
+	 P  con un porcentaje de  0.0113 %
+	 L  con un porcentaje de  0.0016 %
+21 _  booking_changes
+Variable cuantitativa discreta
+Resultado mas comun o moda:  0
+count    61913.000000
+mean         0.195952
+std          0.610519
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max         17.000000
+Name: booking_changes, dtype: float64
+22 _  deposit_type
+Variable cualitativa
+count          61913
+unique             3
+top       No Deposit
+freq           51685
+Name: deposit_type, dtype: object
+La variable deposit_type toma estos valores:
+	 No Deposit  con un porcentaje de  83.48 %
+	 Non Refund  con un porcentaje de  16.394 %
+	 Refundable  con un porcentaje de  0.126 %
+23 _  agent
+Variable cualitativa
+count    54023.000000
+mean        84.541010
+std        109.523772
+min          1.000000
+25%          9.000000
+50%         12.000000
+75%        208.000000
+max        535.000000
+Name: agent, dtype: float64
+La variable agent toma estos valores:
+	 9.0  con un porcentaje de  27.4643 %
+	 nan  con un porcentaje de  0.0 %
+	 154.0  con un porcentaje de  0.1971 %
+	 20.0  con un porcentaje de  0.5298 %
+	 314.0  con un porcentaje de  0.7252 %
+	 240.0  con un porcentaje de  11.9296 %
+	 58.0  con un porcentaje de  0.3473 %
+	 250.0  con un porcentaje de  2.174 %
+	 86.0  con un porcentaje de  0.3133 %
+	 229.0  con un porcentaje de  0.7236 %
+	 1.0  con un porcentaje de  7.1455 %
+	 33.0  con un porcentaje de  0.0371 %
+	 8.0  con un porcentaje de  1.1823 %
+	 3.0  con un porcentaje de  1.1936 %
+	 236.0  con un porcentaje de  0.281 %
+	 177.0  con un porcentaje de  0.2649 %
+	 38.0  con un porcentaje de  0.239 %
+	 39.0  con un porcentaje de  0.1034 %
+	 170.0  con un porcentaje de  0.1001 %
+	 410.0  con un porcentaje de  0.1114 %
+	 85.0  con un porcentaje de  0.428 %
+	 26.0  con un porcentaje de  0.3489 %
+	 96.0  con un porcentaje de  0.4781 %
+	 14.0  con un porcentaje de  2.7458 %
+	 134.0  con un porcentaje de  0.4668 %
+	 56.0  con un porcentaje de  0.3909 %
+	 234.0  con un porcentaje de  0.0985 %
+	 468.0  con un porcentaje de  0.0258 %
+	 254.0  con un porcentaje de  0.0226 %
+	 147.0  con un porcentaje de  0.1147 %
+	 34.0  con un porcentaje de  0.2665 %
+	 138.0  con un porcentaje de  0.1954 %
+	 40.0  con un porcentaje de  0.7349 %
+	 29.0  con un porcentaje de  0.68 %
+	 315.0  con un porcentaje de  0.2229 %
+	 37.0  con un porcentaje de  1.1726 %
+	 195.0  con un porcentaje de  0.1454 %
+	 326.0  con un porcentaje de  0.1922 %
+	 35.0  con un porcentaje de  0.1034 %
+	 208.0  con un porcentaje de  0.1647 %
+	 22.0  con un porcentaje de  0.2552 %
+	 17.0  con un porcentaje de  0.2164 %
+	 296.0  con un porcentaje de  0.0371 %
+	 28.0  con un porcentaje de  1.1242 %
+	 6.0  con un porcentaje de  2.6473 %
+	 19.0  con un porcentaje de  1.0692 %
+	 98.0  con un porcentaje de  0.1034 %
+	 83.0  con un porcentaje de  0.5265 %
+	 298.0  con un porcentaje de  0.407 %
+	 27.0  con un porcentaje de  0.3327 %
+	 378.0  con un porcentaje de  0.0371 %
+	 484.0  con un porcentaje de  0.0097 %
+	 7.0  con un porcentaje de  2.5536 %
+	 16.0  con un porcentaje de  0.1486 %
+	 21.0  con un porcentaje de  0.8835 %
+	 175.0  con un porcentaje de  0.147 %
+	 171.0  con un porcentaje de  0.4813 %
+	 243.0  con un porcentaje de  0.3683 %
+	 41.0  con un porcentaje de  0.0759 %
+	 45.0  con un porcentaje de  0.0291 %
+	 11.0  con un porcentaje de  0.3327 %
+	 157.0  con un porcentaje de  0.0468 %
+	 273.0  con un porcentaje de  0.2697 %
+	 12.0  con un porcentaje de  0.5395 %
+	 387.0  con un porcentaje de  0.0307 %
+	 368.0  con un porcentaje de  0.0258 %
+	 434.0  con un porcentaje de  0.0307 %
+	 5.0  con un porcentaje de  0.2891 %
+	 36.0  con un porcentaje de  0.0662 %
+	 436.0  con un porcentaje de  0.0291 %
+	 405.0  con un porcentaje de  0.0016 %
+	 191.0  con un porcentaje de  0.1938 %
+	 257.0  con un porcentaje de  0.0307 %
+	 95.0  con un porcentaje de  0.1082 %
+	 15.0  con un porcentaje de  0.3085 %
+	 31.0  con un porcentaje de  0.189 %
+	 440.0  con un porcentaje de  0.0517 %
+	 50.0  con un porcentaje de  0.0194 %
+	 241.0  con un porcentaje de  1.2437 %
+	 4.0  con un porcentaje de  0.0501 %
+	 67.0  con un porcentaje de  0.1131 %
+	 63.0  con un porcentaje de  0.0226 %
+	 168.0  con un porcentaje de  0.1373 %
+	 44.0  con un porcentaje de  0.294 %
+	 261.0  con un porcentaje de  0.0275 %
+	 281.0  con un porcentaje de  0.0856 %
+	 94.0  con un porcentaje de  0.0921 %
+	 336.0  con un porcentaje de  0.0178 %
+	 30.0  con un porcentaje de  0.4054 %
+	 420.0  con un porcentaje de  0.0016 %
+	 104.0  con un porcentaje de  0.0404 %
+	 121.0  con un porcentaje de  0.0291 %
+	 464.0  con un porcentaje de  0.0565 %
+	 196.0  con un porcentaje de  0.2374 %
+	 142.0  con un porcentaje de  0.1163 %
+	 151.0  con un porcentaje de  0.0517 %
+	 242.0  con un porcentaje de  0.6267 %
+	 119.0  con un porcentaje de  0.2859 %
+	 339.0  con un porcentaje de  0.0533 %
+	 310.0  con un porcentaje de  0.0258 %
+	 531.0  con un porcentaje de  0.0549 %
+	 305.0  con un porcentaje de  0.0452 %
+	 2.0  con un porcentaje de  0.1082 %
+	 53.0  con un porcentaje de  0.0226 %
+	 64.0  con un porcentaje de  0.0242 %
+	 248.0  con un porcentaje de  0.1211 %
+	 313.0  con un porcentaje de  0.0226 %
+	 364.0  con un porcentaje de  0.0145 %
+	 286.0  con un porcentaje de  0.0517 %
+	 459.0  con un porcentaje de  0.0145 %
+	 133.0  con un porcentaje de  0.0565 %
+	 132.0  con un porcentaje de  0.1018 %
+	 245.0  con un porcentaje de  0.0323 %
+	 143.0  con un porcentaje de  0.1292 %
+	 52.0  con un porcentaje de  0.1131 %
+	 155.0  con un porcentaje de  0.084 %
+	 251.0  con un porcentaje de  0.1615 %
+	 223.0  con un porcentaje de  0.0097 %
+	 156.0  con un porcentaje de  0.1292 %
+	 159.0  con un porcentaje de  0.0565 %
+	 185.0  con un porcentaje de  0.0598 %
+	 323.0  con un porcentaje de  0.0355 %
+	 13.0  con un porcentaje de  0.0678 %
+	 330.0  con un porcentaje de  0.1018 %
+	 359.0  con un porcentaje de  0.0145 %
+	 527.0  con un porcentaje de  0.0194 %
+	 103.0  con un porcentaje de  0.0145 %
+	 68.0  con un porcentaje de  0.2277 %
+	 174.0  con un porcentaje de  0.0162 %
+	 82.0  con un porcentaje de  0.0791 %
+	 42.0  con un porcentaje de  0.1292 %
+	 256.0  con un porcentaje de  0.0145 %
+	 483.0  con un porcentaje de  0.0016 %
+	 146.0  con un porcentaje de  0.0856 %
+	 89.0  con un porcentaje de  0.0646 %
+	 252.0  con un porcentaje de  0.0291 %
+	 220.0  con un porcentaje de  0.0662 %
+	 88.0  con un porcentaje de  0.0226 %
+	 303.0  con un porcentaje de  0.0016 %
+	 181.0  con un porcentaje de  0.0517 %
+	 152.0  con un porcentaje de  0.1405 %
+	 24.0  con un porcentaje de  0.021 %
+	 394.0  con un porcentaje de  0.0242 %
+	 75.0  con un porcentaje de  0.0598 %
+	 306.0  con un porcentaje de  0.0226 %
+	 183.0  con un porcentaje de  0.042 %
+	 69.0  con un porcentaje de  0.0533 %
+	 10.0  con un porcentaje de  0.218 %
+	 184.0  con un porcentaje de  0.0371 %
+	 149.0  con un porcentaje de  0.0226 %
+	 162.0  con un porcentaje de  0.0404 %
+	 139.0  con un porcentaje de  0.0048 %
+	 99.0  con un porcentaje de  0.0565 %
+	 418.0  con un porcentaje de  0.0048 %
+	 71.0  con un porcentaje de  0.0695 %
+	 481.0  con un porcentaje de  0.0065 %
+	 493.0  con un porcentaje de  0.0275 %
+	 360.0  con un porcentaje de  0.0129 %
+	 115.0  con un porcentaje de  0.1551 %
+	 334.0  con un porcentaje de  0.0178 %
+	 47.0  con un porcentaje de  0.0468 %
+	 375.0  con un porcentaje de  0.0339 %
+	 341.0  con un porcentaje de  0.0032 %
+	 354.0  con un porcentaje de  0.0081 %
+	 214.0  con un porcentaje de  0.0081 %
+	 350.0  con un porcentaje de  0.0226 %
+	 87.0  con un porcentaje de  0.0711 %
+	 78.0  con un porcentaje de  0.0404 %
+	 126.0  con un porcentaje de  0.0081 %
+	 79.0  con un porcentaje de  0.042 %
+	 348.0  con un porcentaje de  0.0145 %
+	 60.0  con un porcentaje de  0.021 %
+	 332.0  con un porcentaje de  0.0565 %
+	 430.0  con un porcentaje de  0.0048 %
+	 474.0  con un porcentaje de  0.0113 %
+	 495.0  con un porcentaje de  0.0581 %
+	 163.0  con un porcentaje de  0.0065 %
+	 112.0  con un porcentaje de  0.0065 %
+	 423.0  con un porcentaje de  0.0113 %
+	 66.0  con un porcentaje de  0.0355 %
+	 55.0  con un porcentaje de  0.0194 %
+	 324.0  con un porcentaje de  0.0048 %
+	 270.0  con un porcentaje de  0.0065 %
+	 455.0  con un porcentaje de  0.0162 %
+	 219.0  con un porcentaje de  0.0113 %
+	 390.0  con un porcentaje de  0.0323 %
+	 91.0  con un porcentaje de  0.0339 %
+	 404.0  con un porcentaje de  0.0032 %
+	 355.0  con un porcentaje de  0.0032 %
+	 92.0  con un porcentaje de  0.0016 %
+	 253.0  con un porcentaje de  0.0614 %
+	 414.0  con un porcentaje de  0.0032 %
+	 192.0  con un porcentaje de  0.0468 %
+	 385.0  con un porcentaje de  0.0468 %
+	 307.0  con un porcentaje de  0.0129 %
+	 180.0  con un porcentaje de  0.0032 %
+	 308.0  con un porcentaje de  0.0565 %
+	 393.0  con un porcentaje de  0.0048 %
+	 74.0  con un porcentaje de  0.0129 %
+	 467.0  con un porcentaje de  0.0242 %
+	 249.0  con un porcentaje de  0.0468 %
+	 262.0  con un porcentaje de  0.0145 %
+	 23.0  con un porcentaje de  0.0194 %
+	 201.0  con un porcentaje de  0.0307 %
+	 492.0  con un porcentaje de  0.0371 %
+	 288.0  con un porcentaje de  0.0145 %
+	 129.0  con un porcentaje de  0.0129 %
+	 187.0  con un porcentaje de  0.021 %
+	 235.0  con un porcentaje de  0.0339 %
+	 215.0  con un porcentaje de  0.0113 %
+	 57.0  con un porcentaje de  0.0145 %
+	 118.0  con un porcentaje de  0.0404 %
+	 127.0  con un porcentaje de  0.0323 %
+	 141.0  con un porcentaje de  0.0016 %
+	 290.0  con un porcentaje de  0.0081 %
+	 509.0  con un porcentaje de  0.0113 %
+	 77.0  con un porcentaje de  0.0242 %
+	 327.0  con un porcentaje de  0.0162 %
+	 93.0  con un porcentaje de  0.0016 %
+	 479.0  con un porcentaje de  0.0162 %
+	 173.0  con un porcentaje de  0.0242 %
+	 210.0  con un porcentaje de  0.0065 %
+	 197.0  con un porcentaje de  0.0016 %
+	 153.0  con un porcentaje de  0.0162 %
+	 128.0  con un porcentaje de  0.0194 %
+	 182.0  con un porcentaje de  0.0065 %
+	 475.0  con un porcentaje de  0.0048 %
+	 502.0  con un porcentaje de  0.0194 %
+	 205.0  con un porcentaje de  0.0162 %
+	 32.0  con un porcentaje de  0.0097 %
+	 425.0  con un porcentaje de  0.0097 %
+	 411.0  con un porcentaje de  0.0129 %
+	 193.0  con un porcentaje de  0.0081 %
+	 111.0  con un porcentaje de  0.0129 %
+	 275.0  con un porcentaje de  0.0032 %
+	 110.0  con un porcentaje de  0.0129 %
+	 289.0  con un porcentaje de  0.0016 %
+	 325.0  con un porcentaje de  0.0081 %
+	 105.0  con un porcentaje de  0.0129 %
+	 508.0  con un porcentaje de  0.0048 %
+	 461.0  con un porcentaje de  0.0016 %
+	 476.0  con un porcentaje de  0.0016 %
+	 388.0  con un porcentaje de  0.0016 %
+	 344.0  con un porcentaje de  0.0032 %
+	 287.0  con un porcentaje de  0.0048 %
+	 144.0  con un porcentaje de  0.0016 %
+	 276.0  con un porcentaje de  0.0097 %
+	 441.0  con un porcentaje de  0.0048 %
+	 328.0  con un porcentaje de  0.0081 %
+	 81.0  con un porcentaje de  0.0081 %
+	 432.0  con un porcentaje de  0.0016 %
+	 416.0  con un porcentaje de  0.0016 %
+	 107.0  con un porcentaje de  0.0032 %
+	 497.0  con un porcentaje de  0.0016 %
+	 438.0  con un porcentaje de  0.0016 %
+	 244.0  con un porcentaje de  0.0048 %
+	 535.0  con un porcentaje de  0.0016 %
+	 265.0  con un porcentaje de  0.0016 %
+	 449.0  con un porcentaje de  0.0016 %
+	 247.0  con un porcentaje de  0.0016 %
+	 269.0  con un porcentaje de  0.0016 %
+	 301.0  con un porcentaje de  0.0016 %
+	 72.0  con un porcentaje de  0.0048 %
+	 352.0  con un porcentaje de  0.0016 %
+	 335.0  con un porcentaje de  0.0032 %
+	 450.0  con un porcentaje de  0.0016 %
+	 283.0  con un porcentaje de  0.0016 %
+	 106.0  con un porcentaje de  0.0016 %
+	 371.0  con un porcentaje de  0.0048 %
+	 114.0  con un porcentaje de  0.0016 %
+	 302.0  con un porcentaje de  0.0032 %
+	 227.0  con un porcentaje de  0.0016 %
+	 472.0  con un porcentaje de  0.0016 %
+	 167.0  con un porcentaje de  0.0016 %
+	 61.0  con un porcentaje de  0.0016 %
+	 258.0  con un porcentaje de  0.0016 %
+	 384.0  con un porcentaje de  0.0016 %
+	 179.0  con un porcentaje de  0.0016 %
+	 391.0  con un porcentaje de  0.0016 %
+	 429.0  con un porcentaje de  0.0016 %
+	 59.0  con un porcentaje de  0.0016 %
+	 403.0  con un porcentaje de  0.0016 %
+	 267.0  con un porcentaje de  0.0016 %
+	 370.0  con un porcentaje de  0.0016 %
+	 299.0  con un porcentaje de  0.0016 %
+	 526.0  con un porcentaje de  0.0016 %
+	 431.0  con un porcentaje de  0.0016 %
+	 321.0  con un porcentaje de  0.0016 %
+	 333.0  con un porcentaje de  0.0016 %
+	 278.0  con un porcentaje de  0.0016 %
+	 148.0  con un porcentaje de  0.0016 %
+	 304.0  con un porcentaje de  0.0016 %
+	 451.0  con un porcentaje de  0.0016 %
+	 295.0  con un porcentaje de  0.0016 %
+	 291.0  con un porcentaje de  0.0016 %
+	 427.0  con un porcentaje de  0.0016 %
+	 25.0  con un porcentaje de  0.0016 %
+la cantidad de clientes sin  agent  es: 12.7437 %
+24 _  company
+Variable cualitativa
+count    3152.000000
+mean      188.539340
+std       129.457025
+min         9.000000
+25%        67.000000
+50%       179.000000
+75%       270.000000
+max       543.000000
+Name: company, dtype: float64
+La variable company toma estos valores:
+	 nan  con un porcentaje de  0.0 %
+	 223.0  con un porcentaje de  0.5879 %
+	 512.0  con un porcentaje de  0.0048 %
+	 218.0  con un porcentaje de  0.0355 %
+	 233.0  con un porcentaje de  0.0727 %
+	 268.0  con un porcentaje de  0.0145 %
+	 385.0  con un porcentaje de  0.0291 %
+	 88.0  con un porcentaje de  0.0113 %
+	 154.0  con un porcentaje de  0.0759 %
+	 51.0  con un porcentaje de  0.0856 %
+	 281.0  con un porcentaje de  0.1114 %
+	 202.0  con un porcentaje de  0.042 %
+	 67.0  con un porcentaje de  0.273 %
+	 405.0  con un porcentaje de  0.0791 %
+	 45.0  con un porcentaje de  0.1906 %
+	 329.0  con un porcentaje de  0.0065 %
+	 46.0  con un porcentaje de  0.0162 %
+	 197.0  con un porcentaje de  0.0549 %
+	 137.0  con un porcentaje de  0.0048 %
+	 366.0  con un porcentaje de  0.0162 %
+	 174.0  con un porcentaje de  0.1179 %
+	 40.0  con un porcentaje de  0.6299 %
+	 144.0  con un porcentaje de  0.0162 %
+	 227.0  con un porcentaje de  0.0242 %
+	 86.0  con un porcentaje de  0.0194 %
+	 159.0  con un porcentaje de  0.0065 %
+	 477.0  con un porcentaje de  0.0194 %
+	 308.0  con un porcentaje de  0.0323 %
+	 43.0  con un porcentaje de  0.0323 %
+	 219.0  con un porcentaje de  0.1066 %
+	 68.0  con un porcentaje de  0.0452 %
+	 407.0  con un porcentaje de  0.0226 %
+	 81.0  con un porcentaje de  0.0129 %
+	 465.0  con un porcentaje de  0.0081 %
+	 343.0  con un porcentaje de  0.0145 %
+	 466.0  con un porcentaje de  0.0048 %
+	 353.0  con un porcentaje de  0.0065 %
+	 424.0  con un porcentaje de  0.0178 %
+	 485.0  con un porcentaje de  0.0065 %
+	 38.0  con un porcentaje de  0.042 %
+	 94.0  con un porcentaje de  0.0695 %
+	 153.0  con un porcentaje de  0.1712 %
+	 72.0  con un porcentaje de  0.0226 %
+	 20.0  con un porcentaje de  0.0323 %
+	 47.0  con un porcentaje de  0.0549 %
+	 286.0  con un porcentaje de  0.0178 %
+	 195.0  con un porcentaje de  0.0323 %
+	 358.0  con un porcentaje de  0.0065 %
+	 277.0  con un porcentaje de  0.0032 %
+	 355.0  con un porcentaje de  0.0097 %
+	 12.0  con un porcentaje de  0.0113 %
+	 498.0  con un porcentaje de  0.0452 %
+	 278.0  con un porcentaje de  0.0032 %
+	 62.0  con un porcentaje de  0.0307 %
+	 393.0  con un porcentaje de  0.0016 %
+	 238.0  con un porcentaje de  0.0242 %
+	 242.0  con un porcentaje de  0.0452 %
+	 143.0  con un porcentaje de  0.0178 %
+	 135.0  con un porcentaje de  0.0501 %
+	 331.0  con un porcentaje de  0.042 %
+	 400.0  con un porcentaje de  0.0032 %
+	 342.0  con un porcentaje de  0.0388 %
+	 110.0  con un porcentaje de  0.0436 %
+	 313.0  con un porcentaje de  0.0016 %
+	 78.0  con un porcentaje de  0.0145 %
+	 348.0  con un porcentaje de  0.0614 %
+	 209.0  con un porcentaje de  0.0194 %
+	 452.0  con un porcentaje de  0.0032 %
+	 99.0  con un porcentaje de  0.0097 %
+	 250.0  con un porcentaje de  0.0032 %
+	 118.0  con un porcentaje de  0.0032 %
+	 507.0  con un porcentaje de  0.0194 %
+	 397.0  con un porcentaje de  0.0113 %
+	 321.0  con un porcentaje de  0.0032 %
+	 113.0  con un porcentaje de  0.0178 %
+	 167.0  con un porcentaje de  0.0081 %
+	 9.0  con un porcentaje de  0.0226 %
+	 204.0  con un porcentaje de  0.0242 %
+	 280.0  con un porcentaje de  0.042 %
+	 83.0  con un porcentaje de  0.0048 %
+	 203.0  con un porcentaje de  0.0113 %
+	 333.0  con un porcentaje de  0.0081 %
+	 365.0  con un porcentaje de  0.0226 %
+	 186.0  con un porcentaje de  0.0081 %
+	 324.0  con un porcentaje de  0.0048 %
+	 169.0  con un porcentaje de  0.0565 %
+	 496.0  con un porcentaje de  0.0016 %
+	 31.0  con un porcentaje de  0.0097 %
+	 382.0  con un porcentaje de  0.0048 %
+	 270.0  con un porcentaje de  0.042 %
+	 84.0  con un porcentaje de  0.0032 %
+	 245.0  con un porcentaje de  0.0048 %
+	 274.0  con un porcentaje de  0.0065 %
+	 215.0  con un porcentaje de  0.0032 %
+	 418.0  con un porcentaje de  0.0194 %
+	 525.0  con un porcentaje de  0.0113 %
+	 290.0  con un porcentaje de  0.0097 %
+	 39.0  con un porcentaje de  0.0065 %
+	 14.0  con un porcentaje de  0.0081 %
+	 150.0  con un porcentaje de  0.0129 %
+	 251.0  con un porcentaje de  0.0162 %
+	 292.0  con un porcentaje de  0.0162 %
+	 91.0  con un porcentaje de  0.0323 %
+	 230.0  con un porcentaje de  0.0032 %
+	 521.0  con un porcentaje de  0.0081 %
+	 320.0  con un porcentaje de  0.0016 %
+	 334.0  con un porcentaje de  0.0048 %
+	 408.0  con un porcentaje de  0.0113 %
+	 207.0  con un porcentaje de  0.0065 %
+	 122.0  con un porcentaje de  0.021 %
+	 178.0  con un porcentaje de  0.0162 %
+	 82.0  con un porcentaje de  0.0113 %
+	 388.0  con un porcentaje de  0.0048 %
+	 360.0  con un porcentaje de  0.0065 %
+	 148.0  con un porcentaje de  0.021 %
+	 183.0  con un porcentaje de  0.0081 %
+	 22.0  con un porcentaje de  0.0032 %
+	 435.0  con un porcentaje de  0.0081 %
+	 420.0  con un porcentaje de  0.0016 %
+	 523.0  con un porcentaje de  0.0129 %
+	 307.0  con un porcentaje de  0.0258 %
+	 319.0  con un porcentaje de  0.0016 %
+	 49.0  con un porcentaje de  0.0032 %
+	 421.0  con un porcentaje de  0.0065 %
+	 380.0  con un porcentaje de  0.0097 %
+	 54.0  con un porcentaje de  0.0016 %
+	 221.0  con un porcentaje de  0.021 %
+	 282.0  con un porcentaje de  0.0016 %
+	 48.0  con un porcentaje de  0.0048 %
+	 200.0  con un porcentaje de  0.0016 %
+	 126.0  con un porcentaje de  0.0016 %
+	 216.0  con un porcentaje de  0.0162 %
+	 338.0  con un porcentaje de  0.0081 %
+	 379.0  con un porcentaje de  0.0065 %
+	 356.0  con un porcentaje de  0.0113 %
+	 461.0  con un porcentaje de  0.0016 %
+	 543.0  con un porcentaje de  0.0032 %
+	 220.0  con un porcentaje de  0.0016 %
+	 371.0  con un porcentaje de  0.0081 %
+	 105.0  con un porcentaje de  0.0097 %
+	 311.0  con un porcentaje de  0.0032 %
+	 346.0  con un porcentaje de  0.0129 %
+	 269.0  con un porcentaje de  0.0145 %
+	 168.0  con un porcentaje de  0.0016 %
+	 372.0  con un porcentaje de  0.0032 %
+	 399.0  con un porcentaje de  0.0065 %
+	 120.0  con un porcentaje de  0.0081 %
+	 37.0  con un porcentaje de  0.0097 %
+	 115.0  con un porcentaje de  0.0032 %
+	 291.0  con un porcentaje de  0.0081 %
+	 127.0  con un porcentaje de  0.0081 %
+	 515.0  con un porcentaje de  0.0048 %
+	 439.0  con un porcentaje de  0.0032 %
+	 73.0  con un porcentaje de  0.0032 %
+	 428.0  con un porcentaje de  0.0113 %
+	 179.0  con un porcentaje de  0.021 %
+	 383.0  con un porcentaje de  0.0032 %
+	 112.0  con un porcentaje de  0.0129 %
+	 284.0  con un porcentaje de  0.0016 %
+	 297.0  con un porcentaje de  0.0081 %
+	 499.0  con un porcentaje de  0.0016 %
+	 92.0  con un porcentaje de  0.0048 %
+	 234.0  con un porcentaje de  0.0016 %
+	 317.0  con un porcentaje de  0.0065 %
+	 396.0  con un porcentaje de  0.0097 %
+	 103.0  con un porcentaje de  0.0097 %
+	 140.0  con un porcentaje de  0.0016 %
+	 409.0  con un porcentaje de  0.0081 %
+	 445.0  con un porcentaje de  0.0016 %
+	 109.0  con un porcentaje de  0.0016 %
+	 240.0  con un porcentaje de  0.0016 %
+	 378.0  con un porcentaje de  0.0048 %
+	 271.0  con un porcentaje de  0.0016 %
+	 18.0  con un porcentaje de  0.0016 %
+	 384.0  con un porcentaje de  0.0048 %
+	 59.0  con un porcentaje de  0.0032 %
+	 376.0  con un porcentaje de  0.0016 %
+	 458.0  con un porcentaje de  0.0032 %
+	 272.0  con un porcentaje de  0.0032 %
+	 369.0  con un porcentaje de  0.0048 %
+	 107.0  con un porcentaje de  0.0065 %
+	 504.0  con un porcentaje de  0.0048 %
+	 528.0  con un porcentaje de  0.0016 %
+	 377.0  con un porcentaje de  0.0032 %
+	 149.0  con un porcentaje de  0.0048 %
+	 490.0  con un porcentaje de  0.0032 %
+	 163.0  con un porcentaje de  0.0129 %
+	 337.0  con un porcentaje de  0.0129 %
+	 370.0  con un porcentaje de  0.0016 %
+	 448.0  con un porcentaje de  0.0032 %
+	 243.0  con un porcentaje de  0.0016 %
+	 373.0  con un porcentaje de  0.0016 %
+	 450.0  con un porcentaje de  0.0081 %
+	 108.0  con un porcentaje de  0.0048 %
+	 254.0  con un porcentaje de  0.0048 %
+	 258.0  con un porcentaje de  0.0016 %
+	 293.0  con un porcentaje de  0.0032 %
+	 53.0  con un porcentaje de  0.0032 %
+	 341.0  con un porcentaje de  0.0032 %
+	 443.0  con un porcentaje de  0.0032 %
+	 425.0  con un porcentaje de  0.0016 %
+	 287.0  con un porcentaje de  0.0016 %
+	 325.0  con un porcentaje de  0.0016 %
+	 390.0  con un porcentaje de  0.0048 %
+	 302.0  con un porcentaje de  0.0048 %
+	 364.0  con un porcentaje de  0.0016 %
+	 288.0  con un porcentaje de  0.0016 %
+	 392.0  con un porcentaje de  0.0048 %
+	 130.0  con un porcentaje de  0.0113 %
+	 279.0  con un porcentaje de  0.0081 %
+	 349.0  con un porcentaje de  0.0016 %
+	 394.0  con un porcentaje de  0.0048 %
+	 323.0  con un porcentaje de  0.0048 %
+	 367.0  con un porcentaje de  0.0065 %
+	 361.0  con un porcentaje de  0.0032 %
+	 275.0  con un porcentaje de  0.0016 %
+	 305.0  con un porcentaje de  0.0016 %
+	 416.0  con un porcentaje de  0.0016 %
+	 436.0  con un porcentaje de  0.0016 %
+	 273.0  con un porcentaje de  0.0016 %
+	 263.0  con un porcentaje de  0.0113 %
+	 212.0  con un porcentaje de  0.0016 %
+	 357.0  con un porcentaje de  0.0048 %
+	 539.0  con un porcentaje de  0.0032 %
+	 470.0  con un porcentaje de  0.0032 %
+	 330.0  con un porcentaje de  0.0032 %
+	 486.0  con un porcentaje de  0.0016 %
+	 10.0  con un porcentaje de  0.0016 %
+	 442.0  con un porcentaje de  0.0016 %
+	 433.0  con un porcentaje de  0.0016 %
+	 246.0  con un porcentaje de  0.0032 %
+	 530.0  con un porcentaje de  0.0016 %
+	 34.0  con un porcentaje de  0.0065 %
+	 391.0  con un porcentaje de  0.0016 %
+	 225.0  con un porcentaje de  0.0032 %
+	 451.0  con un porcentaje de  0.0032 %
+	 192.0  con un porcentaje de  0.0032 %
+	 362.0  con un porcentaje de  0.0016 %
+	 213.0  con un porcentaje de  0.0016 %
+	 459.0  con un porcentaje de  0.0016 %
+	 437.0  con un porcentaje de  0.0048 %
+	 180.0  con un porcentaje de  0.0016 %
+	 255.0  con un porcentaje de  0.0032 %
+	 42.0  con un porcentaje de  0.0048 %
+	 193.0  con un porcentaje de  0.0081 %
+	 289.0  con un porcentaje de  0.0016 %
+	 460.0  con un porcentaje de  0.0016 %
+	 403.0  con un porcentaje de  0.0016 %
+	 395.0  con un porcentaje de  0.0032 %
+	 116.0  con un porcentaje de  0.0016 %
+	 541.0  con un porcentaje de  0.0016 %
+	 351.0  con un porcentaje de  0.0016 %
+	 481.0  con un porcentaje de  0.0016 %
+	 93.0  con un porcentaje de  0.0016 %
+	 457.0  con un porcentaje de  0.0016 %
+	 350.0  con un porcentaje de  0.0048 %
+	 368.0  con un porcentaje de  0.0016 %
+	 232.0  con un porcentaje de  0.0016 %
+	 492.0  con un porcentaje de  0.0016 %
+	 85.0  con un porcentaje de  0.0016 %
+	 484.0  con un porcentaje de  0.0016 %
+	 260.0  con un porcentaje de  0.0016 %
+	 28.0  con un porcentaje de  0.0016 %
+	 426.0  con un porcentaje de  0.0016 %
+	 479.0  con un porcentaje de  0.0016 %
+	 398.0  con un porcentaje de  0.0016 %
+	 16.0  con un porcentaje de  0.0032 %
+	 100.0  con un porcentaje de  0.0016 %
+	 316.0  con un porcentaje de  0.0032 %
+	 312.0  con un porcentaje de  0.0016 %
+	 96.0  con un porcentaje de  0.0016 %
+	 447.0  con un porcentaje de  0.0016 %
+	 104.0  con un porcentaje de  0.0016 %
+	 217.0  con un porcentaje de  0.0016 %
+	 259.0  con un porcentaje de  0.0016 %
+	 419.0  con un porcentaje de  0.0016 %
+	 160.0  con un porcentaje de  0.0016 %
+la cantidad de clientes sin  company  es: 94.909 %
+25 _  days_in_waiting_list
+Variable cuantitativa discreta
+Resultado mas comun o moda:  0
+count    61913.000000
+mean         2.638977
+std         18.619092
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max        391.000000
+Name: days_in_waiting_list, dtype: float64
+26 _  customer_type
+Variable cualitativa
+count         61913
+unique            4
+top       Transient
+freq          47449
+Name: customer_type, dtype: object
+La variable customer_type toma estos valores:
+	 Transient  con un porcentaje de  76.6382 %
+	 Transient-Party  con un porcentaje de  19.6534 %
+	 Contract  con un porcentaje de  3.2836 %
+	 Group  con un porcentaje de  0.4248 %
+27 _  adr
+Variable cuantitativa continua
+Resultado mas comun o moda:  62.0
+count    61913.000000
+mean       102.383773
+std         47.757640
+min         -6.380000
+25%         70.000000
+50%         95.000000
+75%        126.000000
+max        510.000000
+Name: adr, dtype: float64
+28 _  required_car_parking_spaces
+Variable cuantitativa discreta
+Resultado mas comun o moda:  0
+count    61913.000000
+mean         0.049957
+std          0.221023
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          8.000000
+Name: required_car_parking_spaces, dtype: float64
+29 _  total_of_special_requests
+Variable cuantitativa discreta
+Resultado mas comun o moda:  0
+count    61913.000000
+mean         0.523703
+std          0.775412
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          1.000000
+max          5.000000
+Name: total_of_special_requests, dtype: float64
+30 _  reservation_status_date
+Variable cuantitativa discreta
+Aclaracion: Imprime los dias siendo 0 la primera fecha
+Resultado mas comun o moda:  2015-10-21 00:00:00
+count: 	 61913
+mean 	 2016-07-18 03:11:41.765380352
+std  	 230 days 14:29:51.156111756
+min  	 2014-10-17 00:00:00
+50%  	 2016-07-24 00:00:00
+max  	 2017-09-14 00:00:00
+31 _  id
+Variable cualitativa
+count                                    61913
+unique                                   61913
+top       7aa4cc6b-b92c-4061-b21d-4f9e0cac4689
+freq                                         1
+Name: id, dtype: object
+La variable id toma estos valores:
+el promedio de todo los elementos es de  1.615169673574209e-05
+32 _  is_canceled
+Variable cuantitativa discreta
+Resultado mas comun o moda:  0
+count    61913.000000
+mean         0.499750
+std          0.500004
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          1.000000
+max          1.000000
+Name: is_canceled, dtype: float64
+	 1  con un porcentaje de  49.975 %
+	 0  con un porcentaje de  50.025 %
+50% es la mediana
